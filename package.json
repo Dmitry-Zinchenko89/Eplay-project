@@ -3,16 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://dmitry-zinchenko89.github.io/Eplay-project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/Eplay/",
     "preview": "vite preview",
-    "build:preview": "vite build && vite preview"
+    "build:preview": "vite build && vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
+    "sharp": "^0.34.4",
     "vite": "^5.4.6",
     "vite-plugin-image-optimizer": "^1.1.8"
   },

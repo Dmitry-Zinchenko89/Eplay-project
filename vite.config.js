@@ -5,11 +5,13 @@ import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
+
 export default defineConfig(({ command }) => {
   return {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+    base: '/Eplay-project/',
     root: 'src',
     build: {
       sourcemap: true,
