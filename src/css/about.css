@@ -24,7 +24,7 @@
     left: -15px;
     width: 307px;
     height: 350px;
-    background: url('/Eplay-project/img/mobile/About.png') no-repeat;
+    background: url('../img/mobile/About.png') no-repeat;
     background-size: contain;
     z-index: -1;
     transform: scale(1);
@@ -81,7 +81,7 @@
     left: 100px;
     width: 481px;
     height: 738px;
-    background: url('/Eplay-project/img/desktop/about-background.png') no-repeat;
+    background: url('../img/desktop/about-background.png') no-repeat;
     background-size: contain;
     z-index: -1;
     transform: scale(1.4);

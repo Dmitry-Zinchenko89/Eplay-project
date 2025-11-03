@@ -5,19 +5,19 @@
   display: inline-block;
   width: 176px;
   height: 46px;
-  background-image: url('/Eplay-project/img/desktop/Buttons.png');
+  background-image: url('/img/desktop/Buttons.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+ 
   border-radius: 5px;
 }
 
 .link-container-mob:hover {
-  background-image: url('/Eplay-project/img/desktop/button_hover.png');
+  background-image: url('/img/desktop/button_hover.png');
 }
 .link-container-mob:focus {
-  background-image: url('/Eplay-project/img/desktop/button_focus');
+  background-image: url('/img/desktop/button_focus');
 }
 
 .google-play-link-mob {
@@ -54,14 +54,14 @@ padding-top: 50px;
   }
 
   .cookie-banner p {
-
+   
     margin: 0 auto;
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 15px;
 max-width: 288px;
 margin: 0 auto;
-/* line-height: 22px; */
+/* line-height: 22px; */ 
 line-height: 150%;
 color: #fff;
 padding-bottom: 20px;
@@ -74,7 +74,7 @@ padding-bottom: 20px;
     flex-wrap: wrap;
     max-width: 235px;
     margin: 0 auto;
-
+    
   }
 
   .cookie-buttons button {
@@ -249,7 +249,7 @@ padding-bottom: 20px;
   display: inline-block;
   width: 180px;
   height: 52px;
-  background-image: url('/Eplay-project/img/desktop/Buttons.png');
+  background-image: url('/img/desktop/Buttons.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -258,10 +258,10 @@ padding-bottom: 20px;
 
 .link-container:hover,
  .link-container:focus {
-  background-image: url('/Eplay-project/img/desktop/button_hover.png');
+  background-image: url('/img/desktop/button_hover.png');
 }
 .link-container:focus {
-  background-image: url('/Eplay-project/img/desktop/button_focus');
+  background-image: url('/img/desktop/button_focus');
 }
 
 .google-play-link {

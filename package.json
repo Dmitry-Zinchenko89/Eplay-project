@@ -6,7 +6,7 @@
   "homepage": "https://dmitry-zinchenko89.github.io/Eplay-project/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/Eplay/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
     "deploy": "gh-pages -d dist"
